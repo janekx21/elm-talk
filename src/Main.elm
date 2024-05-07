@@ -235,8 +235,4 @@ keyToMsg key =
             GotoPreviusSlide
 
         _ ->
-            let
-                _ =
-                    Debug.log "key" key
-            in
             NoOp
